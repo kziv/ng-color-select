@@ -1,0 +1,29 @@
+{
+  "name": "angular-color-select",
+  "version": "0.0.0",
+  "homepage": "https://github.com/kziv/ng-color-select",
+  "authors": [
+    "Karen Ziv <me@karenziv.com>"
+  ],
+  "description": "Color selector for AngularJS",
+  "main": "angular-color-select.js",
+  "keywords": [
+    "Angular",
+    "AngularJS",
+    "color",
+    "form",
+    "select"
+  ],
+  "dependencies": {
+    "angular": "1.2.x"
+  }
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

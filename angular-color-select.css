@@ -1,0 +1,66 @@
+/* Color swatches */
+.ng-color-picker-swatch {
+  border-radius: 5px;
+  border: 2px solid #666;
+  display: block;
+  float: left;
+  height: 20px;
+  margin: 2px;
+  width: 20px;
+}
+.ng-color-picker-swatch input {
+  //visibility: hidden;
+}
+.ng-color-picker-swatch span {
+  font-size: 0;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.ng-color-picker-swatch:before {
+  content: "";
+  display: block;
+  padding-top: 100%;
+  /* initial ratio of 1:1*/
+}
+.ng-color-picker-swatch:hover {
+  opacity: 0.8;
+  filter: alpha(opacity = 80);
+  -webkit-transform: scale(1.08);
+  -ms-transform: scale(1.08);
+  transform: scale(1.08);
+}
+.ng-color-picker-swatch.selected {
+
+}
+
+/* ----- Optional color presets ----- */
+.ng-color-picker-swatch.ng-color-picker-swatch-red {
+  background-color: #d11600;
+}
+.ng-color-picker-swatch.ng-color-picker-swatch-orange {
+  background-color: #f96302;
+}
+.ng-color-picker-swatch.ng-color-picker-swatch-yellow {
+  background-color: #ffed38;
+}
+.ng-color-picker-swatch.ng-color-picker-swatch-green {
+  background-color: #339e35;
+}
+.ng-color-picker-swatch.ng-color-picker-swatch-blue {
+  background-color: #60afdd;
+}
+.ng-color-picker-swatch.ng-color-picker-swatch-purple {
+  background-color: #9b4f96;
+}
+.ng-color-picker-swatch.ng-color-picker-swatch-black {
+  background-color: #000;
+}
+.ng-color-picker-swatch.ng-color-picker-swatch-white {
+  background-color: #fff;
+}
+
+/**
+<ul class="ng-color-picker">
+  <li data-ng-repeat="color in colors" class="ng-color-picker-swatch ng-color-picker-swatch-{{color.class}}">{{color.name}}</li>
+</ul>*/
