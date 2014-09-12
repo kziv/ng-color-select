@@ -16,7 +16,11 @@
   ],
   "dependencies": {
     "angular": "1.2.x"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:kziv/ng-color-select.git"
+  },
   "license": "MIT",
   "private": true,
   "ignore": [
