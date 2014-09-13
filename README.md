@@ -26,7 +26,7 @@ A color value can be either a named HTML color or a hex code (no pound sign nece
 ### Single value widget with named colors
 
 ```html
-<select name="color" data-ng-color-select>
+<select name="color" data-color-select>
   <option value="">- Select -</option>
   <option value="red">Red</option>
   <option value="orange">Orange</option>
@@ -37,7 +37,7 @@ A color value can be either a named HTML color or a hex code (no pound sign nece
 ### Multiple values widget with hex colors
 
 ```html
-<select name="color" multiple="multiple" data-ng-color-select>
+<select name="color" multiple="multiple" data-color-select>
   <option value="">- Select -</option>
   <option value="f00">Red</option>
   <option value="f60">Orange</option>
@@ -48,7 +48,7 @@ A color value can be either a named HTML color or a hex code (no pound sign nece
 ### Single value widget with hex colors as a data attribute
 
 ```html
-<select name="color" data-ng-color-select>
+<select name="color" data-color-select>
   <option value="">- Select -</option>
   <option value="stop" data-color="f00">Stop</option>
   <option value="caution" data-color="ff0">Caution</option>
