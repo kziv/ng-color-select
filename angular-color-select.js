@@ -22,7 +22,7 @@
       return {
         restrict : 'A',
         replace: true,
-        templateUrl : currentScriptPath.replace('ng-color-select.js', 'ng-color-select.html'),
+        templateUrl : currentScriptPath.replace('angular-color-select.js', 'angular-color-select.html'),
         transclude: true,
         scope: true,
         compile : function (element, attr, transclusionFunc) {
