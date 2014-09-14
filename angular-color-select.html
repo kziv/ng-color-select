@@ -1,6 +1,6 @@
 <div class="ng-color-picker">
-  <label data-ng-repeat="color in colors" for="ng-color-picker-swatch-{{color.class}}" class="ng-color-picker-swatch ng-color-picker-swatch-{{color.class}}" >
-    <input type="checkbox" id="ng-color-picker-swatch-{{color.class}}" value="{{color.class}}">
+  <label data-ng-repeat="color in colors" for="ng-color-picker-swatch-{{color.value}}" class="ng-color-picker-swatch" style="background-color: {{color.color}};">
+    <input type="{{elType}}" id="ng-color-picker-swatch-{{color.value}}" name="{{attr.name}}" value="{{color.value}}" data-ng-model="filters.color[color.color]"/>
     <span>{{color.name}}</span>
   </label>
 </div>
